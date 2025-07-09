@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1.heading {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+p.heading {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label#Guess {
+    font-size: 1rem;
+    color: #333;
+}
+
+.GuessField {
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#result p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+#loworHi {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4500;
+    cursor: pointer;
+}
+.button{
+    cursor: pointer;
+}
