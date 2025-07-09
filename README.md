@@ -34,8 +34,14 @@ A simple and fun number guessing game built using **HTML**, **CSS**, and **JavaS
 ## 📂 Project Structure
 
 📁 Number-Guessing-Game/
+
+
 ├── - index.html
+
+
 ├── - style.css
+
+
 └── - script.js
 
 ---
